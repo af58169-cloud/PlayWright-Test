@@ -10,7 +10,9 @@
    "smokeSuite": "npx playwright test --grep @smoke test src/* --headed --workers=1 --project=chromium --reporter=html",
    "bingTestLoop": "npx playwright test src/Day2_12012025/T2_Bing_Search_Loop.spec.ts --headed --workers=1 --project=chromium --reporter=html",
    "uspsParallel": "npx playwright test src/Day3_12022025/USPS_Multiple_Tests.spec.ts --headed --workers=2 --project=chromium --reporter=html",
-   "uspsParallelCB": "npx playwright test src/Day3_12022025/T1_USPS_Multiple_Tests.spec.ts --headed --workers=4 --project=chromium --project=firefox --reporter=html"
+   "uspsParallelCB": "npx playwright test src/Day3_12022025/T1_USPS_Multiple_Tests.spec.ts --headed --workers=4 --project=chromium --project=firefox --reporter=html",
+   "weightwatchersTest": "npx playwright test src/Action_Items/AI_01_WeightWatchersTest.spec.ts --headed --workers=1 --project=chromium --reporter=html",
+   "bingReusable": "npx playwright test src/Day4_12082025/T1_Bing_Search_Reusable.spec.ts --headed --workers=1 --project=chromium --reporter=html"
 
   },
   "keywords": [],
